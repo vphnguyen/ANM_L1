@@ -4,6 +4,7 @@
 import random
 #===================================== Bai tap cau 1: Random number
 outfile =open ('solieu.txt','w')
+# random so dong va so cot
 row_col={"row":random.randint(2,10),"column":random.randint(2,10)}
 
 #=== Tao so và ghi vao file
