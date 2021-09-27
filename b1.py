@@ -7,7 +7,7 @@ outfile =open ('solieu.txt','w')
 # random so dong va so cot
 row_col={"row":random.randint(2,10),"column":random.randint(2,10)}
 
-#=== Tao so v� ghi vao file
+#=== Tao so va ghi vao file
 temp=[]
 for j in range(0,row_col['row']):
 	line=""
