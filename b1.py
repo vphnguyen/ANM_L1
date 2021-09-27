@@ -7,7 +7,7 @@ outfile =open ('solieu.txt','w')
 # random so dong va so cot
 row_col={"row":random.randint(2,10),"column":random.randint(2,10)}
 
-#=== Tao so và ghi vao file
+#=== Tao so vï¿½ ghi vao file
 temp=[]
 for j in range(0,row_col['row']):
 	line=""
@@ -35,6 +35,7 @@ for line in infile:
 		# Cong trong array lai...
 		sum+= int(i)
 	# Ghi ket qua ra file...
+	print( "Dong"+str(array_in)+" co tong la: "+ str(sum)) 
 	print( "Dong"+str(array_in)+" co tong la: "+ str(sum),file=outfile) 
 print("Processing Done")
 infile.close()
